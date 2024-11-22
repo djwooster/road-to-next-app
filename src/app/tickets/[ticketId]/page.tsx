@@ -5,6 +5,7 @@ type TicketPageProps = {
   params: {
     ticketId: string;
   };
+  searchParams: { [key: string]: string | string[] | undefined };
 };
 
 const TicketPage = ({ params }: TicketPageProps) => {
